@@ -8,14 +8,12 @@ using namespace std;
 //    string result;
 //
 //    int i = 0;
-//    while (true) {
-//        int j = 0;
-//
+//    while (i < s.length()) {
 //        if (s[i] == '(') {
 //            int numOfOpened = 0;
 //            int numOfClosed = 0;
 //
-//            for (j = i + 1; j < s.length(); j++) {
+//            for (int j = i + 1; j < s.length(); j++) {
 //                if(s[j] == ')' && numOfOpened == numOfClosed) {
 //                    result += s.substr(i + 1, j - i - 1);
 //
