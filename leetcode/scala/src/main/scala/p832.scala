@@ -1,4 +1,4 @@
-object p832 {
+object p832 extends App {
   def flipAndInvertImage1(A: Array[Array[Int]]): Array[Array[Int]] = {
     var i = 0
     for (x <- A) {
