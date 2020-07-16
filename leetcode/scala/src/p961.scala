@@ -1,5 +1,3 @@
-import scala.util.control.Breaks._
-
 object p961 extends App {
   def repeatedNTimes(A: Array[Int]): Int = {
     val n = A.length / 2
